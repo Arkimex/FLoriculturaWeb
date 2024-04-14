@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> Floricultura Ana</title>
+    <link rel="icon" href="assets/img/flor.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 id="titulo">Ana Flores</h1>
+        <button id="abrirCadastro" role="button" onclick="mostrarCadastro()">Cadastrar</button>
+    </div>
+
+    <div class="conteudo">
+        <div class="container-pai">
+            <div class="container">
+                <img src="assets/img/floricultura.jpg" alt="Floricultura" class="imagem">
+            </div>
+            <div class="container">
+                <h2><p>Floricultura da dona Ana</p></h2>
+                <p>A floricultura com a maior variedade de flores e com os melhores preços.
+                    Venha conhecer nossa loja e se encantar com a beleza das flores.</p>
+                   <p> Conhaça nosso catalogo de flores abaixo e faça seu cadastro online para 
+                    receber mais informações e realizar pedidos</p>
+                
+            </div>
+            <div class="container">
+                <ul class="lista-direita">
+                    <li>Endereço: Avnida das FLores número 789</li>
+                    <li>E-mail: Floriculturaana@outlok.com</li>
+                    <li>Número: 55 11991945623</li>
+                    <li>Telefone: 08004569</li>
+                </ul>
+            </div>
+        </div>
+        <div class="barra" id="minhaBarra">
+            <form id="registrationForm">
+                <h2>Registro Cliente</h2>
+                <div class="input-group">
+                    <label for="fullName">Nome completo</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Informe seu nome">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Informe seu email">
+                </div>
+                <div class="input-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Informe o número do seu telefone">
+                </div>
+                <div class="input-group">
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" name="address" placeholder="Informe seu endereço">
+                </div>
+                <button type="submit" class="btnConf" onclick="cadastroRealizado()">Registre-se</button>
+                <buttom class="btnCanc" onclick="mostrarCadastro()">Cancelar</buttom>
+            </form>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h2>Catalogo de flores</h2>
+            </div>
+            <div class="card-body">
+                <div class="card-item">
+                    <img src="assets/img/gardenia.jpg" alt="gardenia" class="card-img">
+                    <h3>Gardenia</h3>
+                    <p>Valor: 13,99R$</p>
+                </div>
+                
+                <div class="card-item">
+                    <img src="assets/img/girasol.jpg" alt="girassol" class="card-img">
+                    <h3>Girassol</h3>
+                    <p>Valor: 16,99R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/Margarida-Shasta.jpg" alt="Margarida-Shasta" class="card-img">
+                    <h3>Margarida Shasta</h3>
+                    <p>Valor: 11,50R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/Lirio-Calla.jpg" alt="Lirio-Calla" class="card-img">
+                    <h3>Lírio Calla</h3>
+                    <p>Valor: 22,50R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/Tulipa.jpg" alt="Tulipa" class="card-img">
+                    <h3>Tulipa</h3>
+                    <p>Valor: 10,99R$</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-item">
+                    <img src="assets/img/boca-de-leao.jpg" alt="boca-de-leao" class="card-img">
+                    <h3>Boca-de-leão</h3>
+                    <p>Valor: 22,99R$</p>
+                </div>
+                
+                <div class="card-item">
+                    <img src="assets/img/suculenta.jpg" alt="Suculenta" class="card-img">
+                    <h3>Suculenta</h3>
+                    <p>Valor: 26,99R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/orquidia.jpg" alt="Orquidia" class="card-img">
+                    <h3>Orquidia</h3>
+                    <p>Valor: 31,50R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/zamioculca.jpg" alt="Zamioculca" class="card-img">
+                    <h3>Zamioculca</h3>
+                    <p>Valor: 22,50R$</p>
+                </div>
+
+                <div class="card-item">
+                    <img src="assets/img/lirio-da-paz.jpg" alt="lirio-da-paz" class="card-img">
+                    <h3>Lirio da Paz</h3>
+                    <p>Valor: 15,99R$</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="footer">
+        <p>Todos os direiros reservados © 2024 Thiago E C Heckler</p>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
